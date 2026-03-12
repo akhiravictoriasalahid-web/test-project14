@@ -24,14 +24,14 @@
                 </li>
 
                 <li class="nav-item ms-5">
-                    <a class="nav-link text-white" href="#">Contact</a>
+                    <a class="nav-link text-white" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
      </nav>
 
      <!-- header -->
-      <div id="home" class="container text-center mt-4">
+      <div id="home" class="container text-center mt-5 p-4 bg-white rounded shadow">
         <h1 class="text-primary">Welcome to My Website</h1>
         <p>This is my first Bootstrap Webpage</p>
       </div>
@@ -94,5 +94,37 @@
             </div>
         </div>
        </div>
+
+       <!-- Contact Section -->
+        <div id="contact" class="container mt-5 pt-5">
+
+            <h2 class="text-center text-primary mb-4">Contact Me</h2>
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+
+                    <form action="#">
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                        </div>
+
+                        <button class="btn btn-success">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
